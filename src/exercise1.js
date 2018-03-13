@@ -1,6 +1,4 @@
-var container= [34, -5, 9, 18, 0, -7, 32]
-
-
+var container= [];
 var removeNegativeValue = function(container) {
   if (!container){
     return [];
@@ -8,7 +6,14 @@ var removeNegativeValue = function(container) {
   if (container.length ===0) {
     return [];
   }
-  
+  else {
+   var output = container.filter(function(container)
+  {
+       return container >= 0;
+     })
+   return output;
+ }
+
 }
 
 module.exports = {

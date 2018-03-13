@@ -1,5 +1,8 @@
+input = {}
 var applyMap = function() {
-
+  if (!input){
+    return output ={}
+  }
 }
 
 module.exports = {
