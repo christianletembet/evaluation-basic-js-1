@@ -1,5 +1,14 @@
+var custom = {
+  firstname: 'John',
+  lastname: 'Doe',
+  products: [],
+  moneySpent: 0
+}
+
 var mapCustomer = function(customer) {
-  // Your future job begins here ...
+  if ({}){
+    return custom
+  }
 }
 
 module.exports = {

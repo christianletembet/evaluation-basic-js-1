@@ -1,5 +1,5 @@
 var applyMap = function() {
-  // Your future job begins here ...
+
 }
 
 module.exports = {
