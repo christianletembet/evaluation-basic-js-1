@@ -1,7 +1,7 @@
-input = {}
-var applyMap = function() {
+input = []
+var applyMap = function(input) {
   if (!input){
-    return output ={}
+    return []
   }
 }
 
